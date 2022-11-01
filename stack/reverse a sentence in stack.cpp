@@ -1,4 +1,4 @@
-//stack intro
+//Program to reverse a sentence using stack
 
 #include <iostream>
 #include<stack>
@@ -27,8 +27,10 @@ void reversesentence(string s){
 
 int main()
 {
-   string s= "Hey, how are you doing?";
+   string s;
+   cout<<"Enter sentence you want to reverse"<<endl;
+   cin>>s;
    reversesentence(s);
-
+   cout<<"The reversed sentence is"<<endl<<s;
     return 0;
 }
