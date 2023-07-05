@@ -53,6 +53,7 @@ string infixTopostfix(string s){
         if(!st.empty()){
             st.pop();
         }
+        
     }
         
     else{

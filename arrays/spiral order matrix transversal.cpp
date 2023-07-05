@@ -53,7 +53,6 @@ int main()
            column_start++;
        }
        
-   
       
    }
     return 0;

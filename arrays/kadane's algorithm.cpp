@@ -20,9 +20,10 @@ int main()
  
  for(int i=0;i<n;i++){
      currsum=currsum+a[i];
- if(currsum<0)
-     currsum=0;
+ 
      maxsum=max(maxsum,currsum);
+     if(currsum<0)
+     currsum=0;
  
  }
  cout<<maxsum<<endl;

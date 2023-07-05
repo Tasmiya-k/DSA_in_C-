@@ -23,7 +23,7 @@ int main()
  int i;
  for(int i=0;i<n;i++)
  {
-     current=0;
+ current=0;
  for(int j=i;j<n;j++){
     current=current+arr[j];
     cout<<current<<" ";

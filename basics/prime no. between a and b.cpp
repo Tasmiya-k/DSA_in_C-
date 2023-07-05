@@ -13,7 +13,6 @@ using namespace std;
    
    for(n=a;n<=b;n++)
    {
-       
        for(i=2;i<n;i++){
           if(n%i==0){
           break;
